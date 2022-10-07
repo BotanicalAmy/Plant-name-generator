@@ -9,4 +9,4 @@ g_ending = ['um', 'is', 'irs']
 s_ending = ['or', 'a', 'us']
 
 print("The name of your newly discovered species is")
-print(genus + random.choice(g_ending) + " " + species + random.choice(s_ending))
+print(str.title(genus) + random.choice(g_ending) + " " + species + random.choice(s_ending))
