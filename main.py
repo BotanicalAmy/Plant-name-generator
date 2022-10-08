@@ -5,7 +5,9 @@ print("Hello!  You have discovered a new, rare plant.  Let's give it a name.")
 genus = input("Write the name of your favorite plant: ")
 species = input("Write the name of a place you found the rare specimen: ")
 import random
+#genus endings
 g_ending = ['um', 'is', 'irs']
+#species endings
 s_ending = ['or', 'a', 'us']
 
 print("The name of your newly discovered species is")
